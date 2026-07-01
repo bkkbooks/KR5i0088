@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR5i0088/CK-KZ/v1
+canonical_location: https://kanripo.org/bkk/KR5i0088/CK-KZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 關帝忠孝忠義經/三界伏魔關聖帝君忠孝忠義真經
+  date: '2015-08-29 17:58:55.432609'
+  source:
+    repository: kanripo
+    path: KR5i0088
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: CK-KZ
+    label: 【重刊道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0088_001-CK-KZ.yaml, hash: 'sha256:8422ea1e575380570b1ca9e8b9cef22eef09b8811f75e7470adcd42549b047ed'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0088_001-CK-KZ.markers.yaml, hash: 'sha256:fa6cf374411682bf8474f52bfb01bb7f53cca435bc27b87350e77af98ea3e23a'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0088_01p087a
+    span:
+    - body
+    - 0
+    - 5729
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:aeb7ab5ca6f207f794755dea9810063a88342be69b7b54aa3a856f9d3b60ea87
